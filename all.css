@@ -47,181 +47,169 @@ table {
 	border-spacing: 0;
 }
 
+body{
+    font: italic normal bold 24px/36px Roboto;
+}
+
 .container{
-    width: 1200px;
-    margin: 0 auto;
+    
+}
+.header{
+    background-image: url("image/photo-1552393700-42696fb89bfa.png");
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
-.name{
-	font: normal normal normal 80px/95px SF Pro Text;
+.h-tittle-1{
+    font-size: 24px;
+    text-align: left;
+    line-height: 42px;
+    color: white;
+    margin-top: 308px;
+}
+.h-tittle-2{
     font-size: 80px;
-    color: #000;
-    line-height: 95px;
-    margin-bottom: 24px;
+    text-align: left;
+    line-height: 106px;
+    margin-bottom: 32px;
+    color: white;
+}
+.h-tittle-3{
+    font-size: 24px;
+    text-align: left;
+    line-height: 36px;
+    margin-bottom: 40px;
+    color: white;
+}
+.social-icon{
+    display: flex;
+    margin-bottom: 308px;
+}
+.mr-16{
+    margin-right: 16px;
 }
 
-.broder-1{
-    border: 1px solid #000000;
+.contect{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
-
+.c-tittle-1{
+    font-size: 64px;
+    text-align: left;
+    line-height: 84px;
+    margin-top: 56px;
+    margin-bottom: 40px;
+}
+.c-text-1{
+    font-size: 24px;
+    text-align: left;
+    line-height: 42px;
+    margin-top: 20px;
+    margin-bottom: 4px;
+}
+.c-text-2{
+    font-size: 24px;
+    text-align: left;
+    line-height: 42px;
+    margin-bottom: 8px;
+}
+.c-text-3{
+    font-size: 24px;
+    text-align: left;
+    line-height: 42px;
+    text-align: center;
+    margin-bottom: 28px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid black;
+}
+.dot-tittle{
+    display: flex;
+    align-items: center;
+    margin-bottom: 28px;
+}
+.dot{
+    background-color: #891818;
+    border-radius: 50%;
+    width: 22px;
+    height: 22px;
+    margin-right: 16px;
+}
+.c-text-4{
+    font-size: 24px;
+    text-align: left;
+    line-height: 42px;
+}
+.contect-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+}
+.c2-tittle{
+    font-size: 64px;
+    text-align: left;
+    line-height: 84px;
+    color: white;
+    margin-top: 56px;
+}
+.c2-text-1{
+    font-size: 24px;
+    text-align: left;
+    line-height: 42px;
+    color: white;
+    margin-top: 12px;
+}
+.c2-text-2{
+    font-size: 20px;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+    margin-top: 32px;
+    margin-bottom: 68px;
+}
 .photo-1{
-	margin: 48px 0px;
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 160px;
 }
-
-.tittle{
-	font: normal normal medium 32px/48px PingFang TC;
-	font-size: 32px;
-	color: #000;
-	line-height: 48px;
-	margin-bottom: 8px;
+.c3-tittle{
+    font-size: 64px;
+    text-align: left;
+    line-height: 84px;
+    margin-top: 56px;
 }
-.subtitle{
-	font: normal normal 600 24px/36px SF Pro Text;
-	font-size: 24px;
-	color: #A00404;
-	line-height: 36px;
-	margin-left: 16px;
+.contect-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
-
-.text-1{
-	font: normal normal 300 24px/36px PingFang TC;
-	font-size: 24px;
-	color: #000000;
-	line-height: 36px;
-	margin-top: 16px;
-	margin-bottom: 24px;
-}
-.text-2{
-	font: normal normal 300 24px/36px PingFang TC;
-	font-size: 24px;
-	color: #000000;
-	line-height: 36px;
-	margin-bottom: 64px;
-}
-
-.text-3{
-	font: normal normal 300 24px/36px PingFang TC;
-	font-size: 24px;
-	color: #000000;
-	line-height: 36px;
-	margin:16px 0px;
-}
-.text-4{
-	font: normal normal 300 24px/36px PingFang TC;
-	font-size: 24px;
-	color: #000000;
-	line-height: 36px;
-	margin-bottom: 64px;
-}
-
-.bg{
-	background-color: #415165;
-	padding-top: 24px;
-	padding-bottom: 40px;
-	margin-bottom: 64px;
-}
-
-.tittle-2{
-	font: normal normal medium 32px/48px PingFang TC;
-	font-size: 32px;
-	line-height: 48px;
-	color: #FFFFFF;
-	text-align: center;
-	margin-bottom: 8px;
-}
-.subtitle-2{
-	font: normal normal 600 24px/36px SF Pro Text;
-	font-size: 24px;
-	line-height: 36px;
-	margin-left: 16px;
-}
-.broder-2{
-	background-color: #FFFFFF;
-	width: 100%;
-	height: 1px;
-}
-
-.skill-tree{
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	margin-top: 40px;
-}
-.broder-3{
-	background-color: #96A9C4;
-	width: 1px;
-	height: 300px;
-	margin-right: 23px;
-}
-
-.text-5{
-	font: normal normal 300 24px/36px SF Pro Text;
-	font-size: 24px;
-	color:#FFFFFF;
-	line-height: 36px;
-	margin-bottom: 8px;
-}
-
 .work{
-	display: flex;
-	padding-left: 24px;
-	padding-top: 16px;
-	margin-bottom: 80px;
+    display: flex;
+    margin-top: 56px;
+    margin-bottom: 48px;
 }
-.broder-4{
-	background-color: #96A9C4;
-	width: 1px;
-	height: 654px;
-	margin-right: 24px;
+.work-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-
-.text-6{
-	font: normal normal medium 24px/36px PingFang TC;
-	font-size: 24px;
-	line-height: 36px;
-	color: #000000;
-}
-.text-7{
-	font: normal normal 300 20px/30px PingFang TC;
-	font-size: 20px;
-	line-height: 30px;
-	color: #000000;
-	margin-bottom: 24px;
-	width: 642px;
-}
-.text-8{
-	font: normal normal medium 24px/36px PingFang TC;
-	font-size: 24px;
-	line-height: 36px;
-	color: #000000;
-	margin-bottom: 24px;
+.work-text{
+    margin-top: 16px;
 }
 
-
-.bg-2{
-	background-color: #415165;
-	padding-top: 24px;
-	padding-bottom: 40px;
-}
-.contact{
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	margin-top: 24px;
-}
-
-.text-9{
-	font: normal normal 300 24px/36px SF Pro Text;
-	font-size: 24px;
-	color:#FFFFFF;
-	line-height: 36px;
-	margin-bottom: 16px;
-}
-
-
-.social-media{
-	width: 192px;
-	display: flex;
-	justify-content: space-between;
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    width: 100%;
+    margin-top: 96px;
 }
